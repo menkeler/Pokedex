@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'RalewayRegular';
+    src: url('/fonts/Raleway-Regular.ttf') format('truetype'); 
+    
+}
+
+.addButton{
+    display: flex;
+    justify-content: center;
+}
+
+.addButton button{
+    font-family: RalewayRegular;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px; 
+    border: none; 
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+
+
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'RalewayBold';
+    src: url('/fonts/Raleway-Bold.ttf') format('truetype'); 
+  
+}
+
+.pokemonCard{
+    background-image: linear-gradient(to right, #EBFF00E1, #EBFF00) ; 
+    width: 128px;
+    height: 196px;
+    color: black;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.deleteBtn{
+    display: flex;
+    justify-content: right;
+}
+
+.deleteBtn button{
+    width: 30px; /* Adjust width and height to fit your icon image */
+    height: 30px;
+    background-image: url('/images/buttondelete.svg'); /* Path to your custom icon image */
+    background-size: cover; /* Ensure the image covers the entire button */
+    background-color: transparent;
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: center; /* Center the image within the button */
+    border: none; /* Remove button border */
+    border-radius: 50%; /* Make the button circular */
+    cursor: pointer;
+}
+
+.pokemonIcon{
+    display:flex;
+    justify-content: center;
+}
+
+.pokemonIcon img {
+    width: 200px;
+    height: auto;
+}
+
+.pokemonName {
+    text-align: center;
+    font-size: 14px;
+    font-family: RalewayBold;
+    
+}
+
