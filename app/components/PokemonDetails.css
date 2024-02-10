@@ -1,0 +1,55 @@
+.pokemon-stats, .pokemon-types, .pokemon-abilities, .pokemon-forms{
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding: 1em;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    font-size: 1rem;
+    
+}
+
+.pokemon-basic {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: .5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    font-size: 1rem;
+}
+
+.pokemon-basic > * {
+    padding: 0.5em; /* Adjust the padding value as needed */
+    background-color: white; /* Optional: to have white padding */
+}
+
+.other-info{
+    display:grid;   
+    grid-template-columns: repeat(5, 1fr);     
+    gap: 1em;      
+    overflow-x: scroll; 
+    margin-bottom: 1em;
+    scrollbar-width: none;
+    list-style: none;
+}
+
+.other-info ul::-webkit-scrollbar{
+    display:none
+}
+
+.other-info li{    
+    padding: 1em;
+    text-align: center;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.other-info li:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.other-info li.active{
+    background-color: grey;
+}

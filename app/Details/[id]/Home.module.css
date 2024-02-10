@@ -1,0 +1,17 @@
+
+.top{
+
+    background-image: linear-gradient(to right, #FBFFC9F0, #EBFF00F0) ; 
+    width: 100vw;
+    height: 35vh;
+    margin: 0;
+    border-bottom-left-radius: 120% 50%;
+    border-bottom-right-radius: 120% 50%;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 70px 10px;
+}
